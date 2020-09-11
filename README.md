@@ -131,6 +131,8 @@ oc process -f build_coinscrap_webapp_cents_template.yaml -p APPLICATION_NAME=web
 
 ##
 
+##### Go to ConfigMaps and select 'webapp-env' ConfigMap and then click in 'add to application' button, then select the webapp application and mount in '/etc/config' volume to allow changes to environments without restarting pods
+
 ### Create the Routes for Consume the Applications
 
 ##### Go to the OCP Console and select the Project 'coinscrap-huchas-digitales' and click on 'Routes', inside the 'Networking' aside menu and click on 'Create Route', set the parameters for each Route and click on Create button for each Route
