@@ -2,10 +2,6 @@
 
 ##
 
-## Architecture Diagram
-
-##
-
 ![Screenshot](README.png)
 
 ##
