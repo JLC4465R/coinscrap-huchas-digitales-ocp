@@ -138,7 +138,7 @@ oc process -f build_coinscrap_webapp_cents_template.yaml -p APPLICATION_NAME=web
 ##### Go to the OCP Console and select the Project 'coinscrap-huchas-digitales' and click on 'Routes', inside the 'Networking' aside menu and click on 'Create Route', set the parameters for each Route and click on Create button for each Route
 
 #### Create the Route for 'webapp'
-- Name: webapp
+- Name: webapp-cents
 - Hostname: coinscrap-webapp-cents.192.168.99.105.nip.io
 - Service: webapp
 - Target Port: 3000
