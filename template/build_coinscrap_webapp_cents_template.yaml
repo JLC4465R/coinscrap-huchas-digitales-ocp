@@ -102,22 +102,19 @@ objects:
         name: ${APPLICATION_NAME}
       spec:
         containers:
-        - args:
-          - npm
-          - run
-          - start:prod
-          env:
-          - name: CLIENT_ENV_API_BASE_URL
-            valueFrom:
-              configMapKeyRef:
-                key: CLIENT_ENV_API_BASE_URL
-                name: webapp-env
-          - name: CLIENT_ENV_NODE_ENV
-            valueFrom:
-              configMapKeyRef:
-                key: CLIENT_ENV_NODE_ENV
-                name: webapp-env
-            image: jkgzenna/coinscrap-webapp-cents:development
+          - env:
+              # ENVIRONMENT VARIABLES
+              - name: CLIENT_ENV_API_BASE_URL
+                valueFrom:
+                  configMapKeyRef:
+                    key: CLIENT_ENV_API_BASE_URL
+                    name: webapp-env
+              - name: CLIENT_ENV_NODE_ENV
+                valueFrom:
+                  configMapKeyRef:
+                    key: CLIENT_ENV_NODE_ENV
+                    name: webapp-env
+            image: ${APPLICATION_NAME}
             imagePullPolicy: Always
             name: ${APPLICATION_NAME}
             # THE NEXT VALUES ARE CONFIG IN THE ADMINISTRATION RESOURCES QUOTAS AND LIMIT RANGES OF THE NAMESPACE/PROJECT
