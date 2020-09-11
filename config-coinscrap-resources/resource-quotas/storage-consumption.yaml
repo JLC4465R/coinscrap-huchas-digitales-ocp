@@ -2,7 +2,7 @@ kind: ResourceQuota
 apiVersion: v1
 metadata:
   name: storage-consumption
-  namespace: coinscrap-image-registry
+  namespace: coinscrap-huchas-digitales
 spec:
   hard:
     persistentvolumeclaims: '2'
