@@ -1,1 +1,0 @@
-https://s3.eu-central-1.amazonaws.com/com.coinscrap.cents.dev/docker/webapp/coinscrap-webapp-cents-development-csAqugPGYmsUcAhGggn9xXzay5YeFY5fMQrghm7acMxV6pVsbmZtxTr8cnf9BHTs.tar
