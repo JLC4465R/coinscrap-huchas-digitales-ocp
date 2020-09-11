@@ -222,4 +222,4 @@ parameters:
   displayName: Context Directory
   name: CONTEXT_DIR
   required: false
-  value: webapp
+  value: webapp/1.0
