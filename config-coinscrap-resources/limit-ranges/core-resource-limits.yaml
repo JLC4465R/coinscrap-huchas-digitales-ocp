@@ -2,7 +2,7 @@ kind: LimitRange
 apiVersion: v1
 metadata:
   name: core-resource-limits
-  namespace: coinscrap-image-registry
+  namespace: coinscrap-huchas-digitales
   annotations:
 spec:
   limits:
