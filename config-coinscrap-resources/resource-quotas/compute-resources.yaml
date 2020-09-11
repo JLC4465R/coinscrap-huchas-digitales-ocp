@@ -2,7 +2,7 @@ kind: ResourceQuota
 apiVersion: v1
 metadata:
   name: compute-resources
-  namespace: coinscrap-image-registry
+  namespace: coinscrap-huchas-digitales
 spec:
   hard:
     limits.cpu: '6'
