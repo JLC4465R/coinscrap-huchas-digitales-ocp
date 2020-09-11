@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    com.centurylinklabs.watchtower.enable: "true"
+    kompose.cmd: kompose convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: webapp
+  name: webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: webapp
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        com.centurylinklabs.watchtower.enable: "true"
+        kompose.cmd: kompose convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/default: "true"
+        io.kompose.service: webapp
+    spec:
+      containers:
+      - args:
+        - npm
+        - run
+        - start:prod
+        env:
+        - name: CLIENT_ENV_API_BASE_URL
+          valueFrom:
+            configMapKeyRef:
+              key: CLIENT_ENV_API_BASE_URL
+              name: webapp-env
+        - name: CLIENT_ENV_NODE_ENV
+          valueFrom:
+            configMapKeyRef:
+              key: CLIENT_ENV_NODE_ENV
+              name: webapp-env
+        image: docker.amodosoluciones.com/coinscrap/coinscrap-webapp-cents:development
+        imagePullPolicy: ""
+        name: webapp
+        ports:
+        - containerPort: 3000
+        resources: {}
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}
