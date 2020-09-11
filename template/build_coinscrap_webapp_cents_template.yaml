@@ -102,6 +102,10 @@ objects:
         name: ${APPLICATION_NAME}
       spec:
         containers:
+          - args:
+            - npm
+            - run
+            - start:prod
           - env:
               # ENVIRONMENT VARIABLES
               - name: CLIENT_ENV_API_BASE_URL
