@@ -106,7 +106,7 @@ objects:
             - npm
             - run
             - start:prod
-          - env:
+            env:
               # ENVIRONMENT VARIABLES
               - name: CLIENT_ENV_API_BASE_URL
                 valueFrom:
