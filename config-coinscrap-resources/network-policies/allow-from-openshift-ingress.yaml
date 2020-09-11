@@ -2,7 +2,7 @@ kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
 metadata:
   name: allow-from-openshift-ingress
-  namespace: coinscrap-image-registry
+  namespace: coinscrap-huchas-digitales
   generation: 1
   annotations:
 spec:
