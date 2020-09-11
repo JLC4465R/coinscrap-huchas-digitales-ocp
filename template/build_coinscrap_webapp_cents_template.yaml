@@ -117,7 +117,7 @@ objects:
               configMapKeyRef:
                 key: CLIENT_ENV_NODE_ENV
                 name: webapp-env
-            image: ${APPLICATION_NAME}
+            image: jkgzenna/coinscrap-webapp-cents:development
             imagePullPolicy: Always
             name: ${APPLICATION_NAME}
             # THE NEXT VALUES ARE CONFIG IN THE ADMINISTRATION RESOURCES QUOTAS AND LIMIT RANGES OF THE NAMESPACE/PROJECT
