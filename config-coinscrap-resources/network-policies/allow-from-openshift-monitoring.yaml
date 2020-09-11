@@ -2,7 +2,7 @@ kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
 metadata:
   name: allow-from-openshift-monitoring
-  namespace: coinscrap-image-registry
+  namespace: coinscrap-huchas-digitales
   annotations:
 spec:
   podSelector: {}
