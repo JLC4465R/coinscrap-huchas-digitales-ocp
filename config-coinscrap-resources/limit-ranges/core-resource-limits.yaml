@@ -1,0 +1,28 @@
+kind: LimitRange
+apiVersion: v1
+metadata:
+  name: core-resource-limits
+  namespace: coinscrap-image-registry
+  annotations:
+spec:
+  limits:
+    - type: Pod
+      max:
+        cpu: '2'
+        memory: 2Gi
+      min:
+        cpu: 400m
+        memory: 256Mi
+    - type: Container
+      max:
+        cpu: '2'
+        memory: 2Gi
+      min:
+        cpu: 400m
+        memory: 256Mi
+      default:
+        cpu: '1'
+        memory: 1Gi
+      defaultRequest:
+        cpu: 400m
+        memory: 256Mi
