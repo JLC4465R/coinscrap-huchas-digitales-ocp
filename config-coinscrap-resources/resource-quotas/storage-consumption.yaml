@@ -1,0 +1,16 @@
+kind: ResourceQuota
+apiVersion: v1
+metadata:
+  name: storage-consumption
+  namespace: coinscrap-image-registry
+spec:
+  hard:
+    persistentvolumeclaims: '2'
+    requests.storage: 500Gi
+status:
+  hard:
+    persistentvolumeclaims: '2'
+    requests.storage: 500Gi
+  used:
+    persistentvolumeclaims: '0'
+    requests.storage: '0'
