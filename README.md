@@ -146,7 +146,6 @@ oc process -f build_coinscrap_webapp_cents_template.yaml -p APPLICATION_NAME=web
 - TLS termination: Edge
 
 
-
 ##
 
 ### Set Resource Quotas, Limit Ranges & Network Policies
