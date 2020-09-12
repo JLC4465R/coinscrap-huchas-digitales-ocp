@@ -1,6 +1,6 @@
 # coinscrap-huchas-digitales-ocp
 
-https://45dd59d85a9c.ngrok.io/login?then=%2Foauth%2Fauthorize%3Fclient_id%3Dopenshift-web-console%26response_type%3Dcode%26state%3DeyJ0aGVuIjoiL2NhdGFsb2ciLCJub25jZSI6IjE1OTk5MjI1MTE3MzctNTM3MzA4NTIyMTI0NzY0NzA0MDM3ODgwMTkzODM3MzkzMTUzODI0NTI4MjMyNjUyOTYxMjcyOTMxMjQxNDA1NTkyMDQwNDMyOTgxMzIifQ%26redirect_uri%3Dhttps%253A%252F%252F192.168.99.105%253A8443%252Fconsole%252Foauth
+https://192.168.99.105:8443/login?then=%2Foauth%2Fauthorize%3Fclient_id%3Dopenshift-web-console%26response_type%3Dcode%26state%3DeyJ0aGVuIjoiL2NhdGFsb2ciLCJub25jZSI6IjE1OTk5MjMyMDQ2MzEtNDI4OTQ2MzEzMDMxMjE5MzQ2MDYzMzkzMjI1OTgxNzA4ODgzNTMzMjMyMTkyMTI5NjI5MzM4NjY3NTEyMjk4ODA4NDUwMzIzMDU3ODk3MCJ9%26redirect_uri%3Dhttps%253A%252F%252F192.168.99.105%253A8443%252Fconsole%252Foauth
 
 ##
 
