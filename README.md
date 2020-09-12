@@ -1,6 +1,6 @@
 # coinscrap-huchas-digitales-ocp
 oc login https://45dd59d85a9c.ngrok.io --token=jKrIeMMDboma4hveNyp63erOzy_iUbGRe9FsZLUU9Pw
-https://45dd59d85a9c.ngrok.io/login?then=%2Foauth%2Fauthorize%3Fclient_id%3Dopenshift-web-console%26response_type%3Dcode%26state%3DeyJ0aGVuIjoiL2NhdGFsb2ciLCJub25jZSI6IjE1OTk5MjMyMDQ2MzEtNDI4OTQ2MzEzMDMxMjE5MzQ2MDYzMzkzMjI1OTgxNzA4ODgzNTMzMjMyMTkyMTI5NjI5MzM4NjY3NTEyMjk4ODA4NDUwMzIzMDU3ODk3MCJ9%26redirect_uri%3Dhttps%253A%252F%252F192.168.99.105%253A8443%252Fconsole%252Foauth
+https://51c7417ef124.ngrok.io/login?then=%2Foauth%2Fauthorize%3Fclient_id%3Dopenshift-web-console%26response_type%3Dcode%26state%3DeyJ0aGVuIjoiL2NhdGFsb2ciLCJub25jZSI6IjE1OTk5MjQ1Nzk1NjctMTM5OTk4Mzc3MzExMDQzODI2Njk0MDM4NDA5NDg1ODQ1ODc4NDAwMzI1OTI3MjYxMjM5MTU5NjQ0NDMyNTA3MDYwMTM0NDE4Mjc2Mzg1NSJ9%26redirect_uri%3Dhttps%253A%252F%252F192.168.99.105%253A8443%252Fconsole%252Foauth
 
 ##
 
